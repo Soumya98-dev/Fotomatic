@@ -41,6 +41,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 85px;
 }
 
 header .content {
@@ -51,21 +52,33 @@ header .content {
 
 header .logo {
   flex: 1;
+  color: #4A4A4A;
+  font-size: 24px;
+  font-family: Roboto-Mono-Regular;
+  text-decoration: none;
+  margin-left: 30px;
 }
 
 header nav ul {
   display: flex;
+  list-style: none;
 }
 
 nav li {
   padding-left: 3.5rem;
+
 }
 
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: #4a4a4a;
+  text-decoration: none;
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: Roboto-Regular;
+  margin-right:30px;
 }
 
 header .icon {
