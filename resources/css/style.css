@@ -34,7 +34,6 @@ html {
 .image-container img {
   display: block;
   max-width: 100%;
-  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -51,6 +50,7 @@ header {
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
   height: 85px;
+  top: 0;
 }
 
 header .content {
@@ -139,6 +139,9 @@ header .mobile {
   align-items: flex-start;
   height: 43.5rem;
   background-image: url("../images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -266,6 +269,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  margin-top: 1rem;
 }
 
 .feature h3 {
@@ -355,6 +359,7 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+
   }
 
   #filters-section .extra {
