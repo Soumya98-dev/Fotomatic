@@ -1,9 +1,8 @@
 /* Universal Styles */
 
-* {
+*{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /* margin:0; */
 }
 
 html {
@@ -49,8 +48,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  height: 85px;
-  top: 0;
+  z-index: 100;
 }
 
 header .content {
@@ -75,6 +73,7 @@ header nav ul {
 
 nav li {
   padding-left: 3.5rem;
+  margin-top: auto;
 }
 
 nav a {
@@ -82,16 +81,13 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
-  text-decoration: none;
-  color: #4A4A4A;
-  font-family: Roboto-Regular;
-  margin-right: 30px;
+
 }
 
 header .icon {
   width: 2rem;
   padding-left: .75rem;
-  margin: 0 auto;
+
 }
 
 header .mobile {
@@ -412,13 +408,14 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 2rem !important;
+
 }
 
 footer .content {
   color: white;
   display: flex;
-  font-size: .75rem;
+  font-size: 1rem !important;
 }
 
 footer .copyright {
